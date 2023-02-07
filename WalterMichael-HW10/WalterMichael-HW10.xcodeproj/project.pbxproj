@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C215772C27459CE400D73F18 /* WalterMichael_HW10App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C215772B27459CE400D73F18 /* WalterMichael_HW10App.swift */; };
+		C215772E27459CE400D73F18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C215772D27459CE400D73F18 /* ContentView.swift */; };
+		C215773027459CE700D73F18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C215772F27459CE700D73F18 /* Assets.xcassets */; };
+		C215773327459CE700D73F18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C215773227459CE700D73F18 /* Preview Assets.xcassets */; };
+		C215773D27459CE700D73F18 /* WalterMichael_HW10Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C215773C27459CE700D73F18 /* WalterMichael_HW10Tests.swift */; };
+		C215774727459CE700D73F18 /* WalterMichael_HW10UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C215774627459CE700D73F18 /* WalterMichael_HW10UITests.swift */; };
+		C215774927459CE700D73F18 /* WalterMichael_HW10UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C215774827459CE700D73F18 /* WalterMichael_HW10UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C215773927459CE700D73F18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C215772027459CE400D73F18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C215772727459CE400D73F18;
+			remoteInfo = "WalterMichael-HW10";
+		};
+		C215774327459CE700D73F18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C215772027459CE400D73F18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C215772727459CE400D73F18;
+			remoteInfo = "WalterMichael-HW10";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C215772827459CE400D73F18 /* WalterMichael-HW10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WalterMichael-HW10.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C215772B27459CE400D73F18 /* WalterMichael_HW10App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalterMichael_HW10App.swift; sourceTree = "<group>"; };
+		C215772D27459CE400D73F18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C215772F27459CE700D73F18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C215773227459CE700D73F18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C215773827459CE700D73F18 /* WalterMichael-HW10Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WalterMichael-HW10Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C215773C27459CE700D73F18 /* WalterMichael_HW10Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalterMichael_HW10Tests.swift; sourceTree = "<group>"; };
+		C215774227459CE700D73F18 /* WalterMichael-HW10UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WalterMichael-HW10UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C215774627459CE700D73F18 /* WalterMichael_HW10UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalterMichael_HW10UITests.swift; sourceTree = "<group>"; };
+		C215774827459CE700D73F18 /* WalterMichael_HW10UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalterMichael_HW10UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C215772527459CE400D73F18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C215773527459CE700D73F18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C215773F27459CE700D73F18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C215771F27459CE400D73F18 = {
+			isa = PBXGroup;
+			children = (
+				C215772A27459CE400D73F18 /* WalterMichael-HW10 */,
+				C215773B27459CE700D73F18 /* WalterMichael-HW10Tests */,
+				C215774527459CE700D73F18 /* WalterMichael-HW10UITests */,
+				C215772927459CE400D73F18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C215772927459CE400D73F18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C215772827459CE400D73F18 /* WalterMichael-HW10.app */,
+				C215773827459CE700D73F18 /* WalterMichael-HW10Tests.xctest */,
+				C215774227459CE700D73F18 /* WalterMichael-HW10UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C215772A27459CE400D73F18 /* WalterMichael-HW10 */ = {
+			isa = PBXGroup;
+			children = (
+				C215772B27459CE400D73F18 /* WalterMichael_HW10App.swift */,
+				C215772D27459CE400D73F18 /* ContentView.swift */,
+				C215772F27459CE700D73F18 /* Assets.xcassets */,
+				C215773127459CE700D73F18 /* Preview Content */,
+			);
+			path = "WalterMichael-HW10";
+			sourceTree = "<group>";
+		};
+		C215773127459CE700D73F18 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C215773227459CE700D73F18 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C215773B27459CE700D73F18 /* WalterMichael-HW10Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C215773C27459CE700D73F18 /* WalterMichael_HW10Tests.swift */,
+			);
+			path = "WalterMichael-HW10Tests";
+			sourceTree = "<group>";
+		};
+		C215774527459CE700D73F18 /* WalterMichael-HW10UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C215774627459CE700D73F18 /* WalterMichael_HW10UITests.swift */,
+				C215774827459CE700D73F18 /* WalterMichael_HW10UITestsLaunchTests.swift */,
+			);
+			path = "WalterMichael-HW10UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C215772727459CE400D73F18 /* WalterMichael-HW10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C215774C27459CE700D73F18 /* Build configuration list for PBXNativeTarget "WalterMichael-HW10" */;
+			buildPhases = (
+				C215772427459CE400D73F18 /* Sources */,
+				C215772527459CE400D73F18 /* Frameworks */,
+				C215772627459CE400D73F18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WalterMichael-HW10";
+			productName = "WalterMichael-HW10";
+			productReference = C215772827459CE400D73F18 /* WalterMichael-HW10.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C215773727459CE700D73F18 /* WalterMichael-HW10Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C215774F27459CE700D73F18 /* Build configuration list for PBXNativeTarget "WalterMichael-HW10Tests" */;
+			buildPhases = (
+				C215773427459CE700D73F18 /* Sources */,
+				C215773527459CE700D73F18 /* Frameworks */,
+				C215773627459CE700D73F18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C215773A27459CE700D73F18 /* PBXTargetDependency */,
+			);
+			name = "WalterMichael-HW10Tests";
+			productName = "WalterMichael-HW10Tests";
+			productReference = C215773827459CE700D73F18 /* WalterMichael-HW10Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C215774127459CE700D73F18 /* WalterMichael-HW10UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C215775227459CE700D73F18 /* Build configuration list for PBXNativeTarget "WalterMichael-HW10UITests" */;
+			buildPhases = (
+				C215773E27459CE700D73F18 /* Sources */,
+				C215773F27459CE700D73F18 /* Frameworks */,
+				C215774027459CE700D73F18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C215774427459CE700D73F18 /* PBXTargetDependency */,
+			);
+			name = "WalterMichael-HW10UITests";
+			productName = "WalterMichael-HW10UITests";
+			productReference = C215774227459CE700D73F18 /* WalterMichael-HW10UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C215772027459CE400D73F18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					C215772727459CE400D73F18 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					C215773727459CE700D73F18 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = C215772727459CE400D73F18;
+					};
+					C215774127459CE700D73F18 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = C215772727459CE400D73F18;
+					};
+				};
+			};
+			buildConfigurationList = C215772327459CE400D73F18 /* Build configuration list for PBXProject "WalterMichael-HW10" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C215771F27459CE400D73F18;
+			productRefGroup = C215772927459CE400D73F18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C215772727459CE400D73F18 /* WalterMichael-HW10 */,
+				C215773727459CE700D73F18 /* WalterMichael-HW10Tests */,
+				C215774127459CE700D73F18 /* WalterMichael-HW10UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C215772627459CE400D73F18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C215773327459CE700D73F18 /* Preview Assets.xcassets in Resources */,
+				C215773027459CE700D73F18 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C215773627459CE700D73F18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C215774027459CE700D73F18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C215772427459CE400D73F18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C215772E27459CE400D73F18 /* ContentView.swift in Sources */,
+				C215772C27459CE400D73F18 /* WalterMichael_HW10App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C215773427459CE700D73F18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C215773D27459CE700D73F18 /* WalterMichael_HW10Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C215773E27459CE700D73F18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C215774727459CE700D73F18 /* WalterMichael_HW10UITests.swift in Sources */,
+				C215774927459CE700D73F18 /* WalterMichael_HW10UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C215773A27459CE700D73F18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C215772727459CE400D73F18 /* WalterMichael-HW10 */;
+			targetProxy = C215773927459CE700D73F18 /* PBXContainerItemProxy */;
+		};
+		C215774427459CE700D73F18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C215772727459CE400D73F18 /* WalterMichael-HW10 */;
+			targetProxy = C215774327459CE700D73F18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C215774A27459CE700D73F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C215774B27459CE700D73F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C215774D27459CE700D73F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WalterMichael-HW10/Preview Content\"";
+				DEVELOPMENT_TEAM = KGEF3EE3A9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WalterMichael-HW10";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C215774E27459CE700D73F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WalterMichael-HW10/Preview Content\"";
+				DEVELOPMENT_TEAM = KGEF3EE3A9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WalterMichael-HW10";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C215775027459CE700D73F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KGEF3EE3A9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WalterMichael-HW10Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WalterMichael-HW10.app/WalterMichael-HW10";
+			};
+			name = Debug;
+		};
+		C215775127459CE700D73F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KGEF3EE3A9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WalterMichael-HW10Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WalterMichael-HW10.app/WalterMichael-HW10";
+			};
+			name = Release;
+		};
+		C215775327459CE700D73F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KGEF3EE3A9;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WalterMichael-HW10UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WalterMichael-HW10";
+			};
+			name = Debug;
+		};
+		C215775427459CE700D73F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KGEF3EE3A9;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WalterMichael-HW10UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WalterMichael-HW10";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C215772327459CE400D73F18 /* Build configuration list for PBXProject "WalterMichael-HW10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C215774A27459CE700D73F18 /* Debug */,
+				C215774B27459CE700D73F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C215774C27459CE700D73F18 /* Build configuration list for PBXNativeTarget "WalterMichael-HW10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C215774D27459CE700D73F18 /* Debug */,
+				C215774E27459CE700D73F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C215774F27459CE700D73F18 /* Build configuration list for PBXNativeTarget "WalterMichael-HW10Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C215775027459CE700D73F18 /* Debug */,
+				C215775127459CE700D73F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C215775227459CE700D73F18 /* Build configuration list for PBXNativeTarget "WalterMichael-HW10UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C215775327459CE700D73F18 /* Debug */,
+				C215775427459CE700D73F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C215772027459CE400D73F18 /* Project object */;
+}
